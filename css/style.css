@@ -1,0 +1,49 @@
+body {
+    background-color: #0B132B;
+}
+
+/* Style the navbar bar */
+ul.navbar {
+    background-color: #1c2541;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the logo */
+ul.navbar li.logo {
+    font-size: 20px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+}
+
+/* Style the search bar */
+ul.navbar li.search {
+    float: right;
+    text-align: center;
+    padding: 13px;
+}
+
+/* Style the button */
+ul.navbar li.navbutton {
+    font-size: 20px;
+    padding: 10px;
+    float: right;
+    align-self: center;
+}
+
+.button {
+    border: 1px solid #000000;
+    height: auto;
+    padding: 13px;
+    background-color: #3a506b;
+    text-decoration: none;
+    color: #f1f1f1;
+}
